@@ -11,6 +11,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
+  line-height: 1;
 }
 
 .desc {
@@ -520,4 +521,136 @@ px .course-desc .other .price {
   height: 440px;
   object-fit: cover;
   border-radius: 20px;
+}
+
+/* ========================Blog============================= */
+.blog {
+  background-color: #fffcf4;
+}
+
+.blog .body {
+  padding: 96px 0;
+}
+
+.blog .body .heading {
+  font-family: "Sen", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: calc(48 / 38);
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #171100;
+}
+
+.blog .body .sub-heading {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: calc(28 / 16);
+  margin: 16px auto 0;
+  text-align: center;
+  color: #696262;
+  width: 448px;
+}
+
+.blog .blog-items {
+  margin-top: 55px;
+  display: flex;
+  gap: 30px;
+}
+
+.blog .blog-items .item {
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.blog .blog-items .item:hover {
+  box-shadow: 0px 16px 32px 0px #0000000d;
+}
+
+.blog-items .item-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.blog-items .blog-content {
+  padding: 20px 20px 28px 20px;
+}
+
+.blog-items .blog-content .time {
+  padding-left: 10px;
+  padding-bottom: 12px;
+  position: relative;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: calc(26 / 14);
+  color: #5f5b53;
+}
+
+.blog-items .blog-content .time::before {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #ffb900;
+  left: 0;
+  top: 10px;
+  border-radius: 50%;
+}
+
+.blog-items .blog-content .time::after {
+  position: absolute;
+  content: "";
+  width: 160px;
+  height: 1px;
+  background-color: #e2dfda;
+  left: 0;
+  bottom: 0;
+}
+
+.blog-items .blog-content .title {
+  margin-top: 12px;
+}
+
+.blog-items .blog-content .title a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: calc(28 / 16);
+  color: #171100;
+  text-decoration: none;
+}
+
+.blog-content .btn {
+  margin-top: 12px;
+  padding: 12px 21px;
+  background-color: #171100;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: calc(26 / 14);
+  color: #fff;
+}
+
+.blog-content .btn:hover {
+  background-color: #ffb900;
+}
+
+.blog .body .dots {
+  text-align: center;
+  margin-top: 38px;
+  line-height: 6px;
+}
+
+.blog .body .dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #5f5b53;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+
+.blog .body .dot:first-child {
+  background-color: #ffb900;
+  margin-left: 0;
 }
