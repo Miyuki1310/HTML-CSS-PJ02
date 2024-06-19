@@ -8,16 +8,17 @@ html {
   font-size: 62.5%;
 }
 
-main {
-  height: 1000px;
-  position: relative;
-}
-
 body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
 
+.desc {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: calc(30 / 18);
+  color: #5f5b53;
+}
 .content {
   width: 1170px;
   margin: 0 auto;
@@ -84,6 +85,9 @@ body {
   bottom: 6px;
 }
 
+.hero {
+  padding-bottom: 65px;
+}
 .header .action .btn {
   min-width: 144px;
   font-weight: 600;
@@ -235,4 +239,140 @@ body {
 .hero .content-block .desc:nth-child(5) {
   margin-top: 8px;
   margin-left: -28px;
+}
+
+.course .body {
+  padding-top: 210px;
+  padding-bottom: 200px;
+}
+
+.course .body .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course .body .title .title-heading {
+  width: 39%;
+}
+
+.course .body .heading {
+  font-family: "Sen", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: calc(48 / 38);
+  letter-spacing: -0.02em;
+  color: #171100;
+}
+
+.course .title .desc {
+  margin-top: 16px;
+}
+.course .title-icon {
+  display: flex;
+  align-items: center;
+}
+
+.course .title-icon .courses-icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffb900;
+  border-radius: 50%;
+  margin-left: 18px;
+}
+
+.course .title-icon .courses-icon:nth-child(2) {
+  background-color: #ffb900;
+}
+
+.course .courses-item {
+  margin-top: 55px;
+  display: flex;
+  gap: 30px;
+}
+
+.course .courses-item .item {
+  border: 1px solid #e2dfda;
+  border-radius: 12px;
+}
+
+.course .courses-item .item:hover {
+  border: 0;
+  box-shadow: 0px 18px 36px 0px #0000000d;
+}
+.course .courses-item .item .item-image {
+  width: 100%;
+  height: 278px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.course .courses-item .item .course-desc {
+  padding: 16px 22px 22px 22px;
+}
+
+.course-desc .item-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-desc .item-title .title {
+  /* font-family: Poppins; */
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: calc(30 / 18);
+  text-align: left;
+  color: #171100;
+}
+
+.course-desc .item-title .rate {
+  display: flex;
+}
+
+.course-desc .item-title .rate .rating {
+  margin-left: 5px;
+  /* font-family: Poppins; */
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: calc(28 / 16);
+  color: #fea31b;
+}
+
+.course-desc .desc {
+  /* font-family: Poppins; */
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: calc(26 / 14);
+  margin-top: 6px;
+}
+
+.course-desc .other {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-desc .other .price {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: calc(30 / 18);
+  color: #171100;
+}
+
+.course-desc .other .btn {
+  padding: 12px 24px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: calc(26 / 14);
+  color: #ffffff;
+  background-color: #000;
+  text-decoration: none;
+}
+
+.course-desc .other .btn:hover {
+  background-color: #ffb900;
 }
