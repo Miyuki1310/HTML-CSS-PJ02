@@ -355,8 +355,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
-.course-desc .other .price {
+px .course-desc .other .price {
   font-weight: 600;
   font-size: 1.8rem;
   line-height: calc(30 / 18);
@@ -376,3 +375,78 @@ body {
 .course-desc .other .btn:hover {
   background-color: #ffb900;
 }
+
+.feedback {
+  background-color: #2e2100;
+}
+.feedback .body {
+  padding: 96px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.feedback .user-infor {
+}
+
+.feedback .user-infor .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.feedback .user-infor .name {
+  margin-top: 18px;
+  font-family: "Sen", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: calc(34 / 24);
+}
+
+.feedback .user-infor .job {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: calc(26 / 14);
+  margin-top: 4px;
+  color: #bfbcb2;
+}
+
+.feedback .user-infor .dots {
+  margin-top: 28px;
+}
+
+.feedback .user-infor .dot {
+  display: inline-block;
+  text-align: center;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #634700;
+  margin-right: 6px;
+}
+
+.feedback .user-infor .dot:first-child {
+  background-color: #ffb900;
+}
+.feedback .user-feedback {
+  width: 65.8%;
+  margin-left: auto;
+  position: relative;
+  padding: 28px 0 0 30px;
+}
+
+.user-feedback .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.user-feedback .feedback-desc {
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: calc(40 / 26);
+}
+
+
