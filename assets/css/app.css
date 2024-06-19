@@ -30,8 +30,9 @@ body {
   min-width: 118px;
   background-color: #171100;
   text-align: center;
-  border-radius: 24.5px;
+  border-radius: 999px;
   display: inline-block;
+  text-decoration: none;
 }
 
 .header.fixed {
@@ -449,4 +450,74 @@ px .course-desc .other .price {
   line-height: calc(40 / 26);
 }
 
+.features {
+  padding: 200px 0;
+}
 
+.features .body1,
+.features .body2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features .body1 {
+  margin-bottom: 200px;
+}
+
+.features .body1 .image {
+  display: flex;
+  gap: 30px;
+}
+.features .body1 .image img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.features .body1 .image img:first-child {
+  margin-top: 34px;
+}
+
+.features .body1 .features-content {
+  width: 40.2%;
+}
+
+.features .heading {
+  font-family: "Sen", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: calc(48 / 38);
+  letter-spacing: -0.02em;
+  color: #171100;
+}
+
+.features .desc {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: calc(28 / 16);
+  color: #5f5b53;
+}
+
+.features .btn {
+  padding: 11px 47px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: calc(28 / 16);
+  background-color: #ffb900;
+  color: #fff;
+  margin-top: 32px;
+}
+
+.features .body2 .body2-content {
+  width: 49%;
+}
+
+.features .body2 img {
+  width: 470px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 20px;
+}
